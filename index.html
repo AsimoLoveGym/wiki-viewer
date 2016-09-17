@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/main.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 
@@ -18,12 +18,13 @@
   <body>
     <main class="container">
       <div clss="row">
-        <div class="col-xs-6 col-xs-offset-3 text-center" id="random-article">
+        <div class="col-xs-8 col-xs-offset-2 text-center" id="random-article">
           <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click for Random Wiki Article</a>
         </div>
-        <div class="col-xs-6 col-xs-offset-3 text-center">
-          <input type="text">
-          <input type="submit" value="Search">
+        <div class="col-xs-8 col-xs-offset-2 text-center" id="search-section">
+          <p class="fa fa-search"></p>
+          <input type="text" id="search-input" value="" onchange="wikiRequest()">
+          <!-- <input type="submit" value="Search"> -->
         </div>
       </div>
     </main>

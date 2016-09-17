@@ -8,9 +8,13 @@ body {
 
 main {
   margin-top: 20%;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 #random-article {
   margin-bottom: 2em;
+}
+
+#search-section {
+  margin-bottom: 1.5em;
 }
